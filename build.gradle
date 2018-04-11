@@ -1,6 +1,9 @@
-apply plugin: 'java'
+plugins {
+  id 'java'
+  id 'idea'
+}
 
-apply plugin: 'idea'
+sourceCompatibility = 1.8
 
 repositories {
 
@@ -12,5 +15,5 @@ repositories {
 
 dependencies {
   
-  compile "com.github.Discord4J:Discord4J:@VERSION@"
+  compile "com.github.Discord4J:Discord4J:2.10.0"
 }
