@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+apply plugin: 'idea'
+
+repositories {
+
+  jcenter() //This prevents issues with transitive dependencies
+  maven {
+    url  "https://jitpack.io"
+  }
+}
+
+dependencies {
+  
+  compile "com.github.Discord4J:Discord4J:@VERSION@"
+}
