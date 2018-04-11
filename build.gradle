@@ -1,12 +1,14 @@
 plugins {
-  id 'java'
-  id 'idea'
+    id 'java'
+    id 'idea'
 }
+
+version '0.0.1'
 
 sourceCompatibility = 1.8
 
 repositories {
-
+	
   jcenter() //This prevents issues with transitive dependencies
   maven {
     url  "https://jitpack.io"
