@@ -14,7 +14,7 @@ TODO: Add instructions
 
 ## Setting Up Your Bot
 - Register your own Discord bot for testing with.
-  - Navigate to the Discord API docs and (login)[https://discordapp.com/developers/applications/me].
+  - Navigate to the Discord API docs and [login](https://discordapp.com/developers/applications/me).
   - Click on the "New App" button.
   - Name your app. Click "Create App".
   - Click "Create a Bot User".
