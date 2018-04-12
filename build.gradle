@@ -15,12 +15,6 @@ dependencies {
   compile "com.github.Discord4J:Discord4J:2.10.0"
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'Main'
-    }
-}
-
 repositories {
 	
   jcenter() //This prevents issues with transitive dependencies
