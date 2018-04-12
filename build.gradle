@@ -1,11 +1,25 @@
 plugins {
     id 'java'
     id 'idea'
+    id 'application'
 }
+
+mainClassName = "Main"
 
 version '0.0.1'
 
 sourceCompatibility = 1.8
+
+dependencies {
+  
+  compile "com.github.Discord4J:Discord4J:2.10.0"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
 
 repositories {
 	
@@ -13,9 +27,4 @@ repositories {
   maven {
     url  "https://jitpack.io"
   }
-}
-
-dependencies {
-  
-  compile "com.github.Discord4J:Discord4J:2.10.0"
 }
