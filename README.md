@@ -4,6 +4,18 @@ A barebones Java-based Discord bot example written using [Discord4J](https://git
 
 For a python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSBot_Py).
 
+# Table of Contents
+
+-   [Installation](#installation)
+    -   [Prerequisites](#prerequisites)
+    -   [Setting Up Your Environment](#setting-up-your-environment)
+        -   [Setting up Gradle](#setting-up-gradle)
+        -   [Getting a local copy of the repository](#getting-a-local-copy-of-the-repository)
+    -   [Building the environment](#building-the-environment)
+    -   [Setting Up Your Bot](#setting-up-your-bot)
+-   [Usage](#usage)
+-   [Contributing](#contributing)
+
 # Installation
 
 TODO: General overview
