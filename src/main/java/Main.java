@@ -1,34 +1,33 @@
 import sx.blah.discord.api.IDiscordClient;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.Properties;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        final String TOKEN;
-        BufferedReader configFile;
-        try {
-            configFile = new BufferedReader(new FileReader("config.ini"));
-        } catch (FileNotFoundException e) {
-            System.err.println("Cannot find the file. Are you sure it's named correctly?");
-            return;
-        }
+        Properties property = new Properties();
+        InputStream input = null;
 
         try {
-            TOKEN = configFile.readLine();
-            configFile.close();
+            input = new FileInputStream("config.properties");
 
-        } catch (IOException e) {
-            System.err.println("The file is empty. Are you sure you included the token?");
-            return;
+            // load a properties file
+            property.load(input);
+
+            String token = property.getProperty("token");
+
+            input.close();
+
+            if (token != null)
+                init(token);
+            else
+                System.err.println("Token attribute was not found. make sure it is spelled like this: 'token'");
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
-
-        init(TOKEN);
-
     }
 
     //Initializes the discord client app
