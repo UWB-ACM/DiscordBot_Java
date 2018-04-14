@@ -49,7 +49,7 @@ The result should be along the lines of:
 
     To see more detail about a task, run gradle help --task <task>
 
-**Note** if an error occurs, make sure to add Gradle's file path to the 'PATH' variable in your system's environment. If that still doesn't fix the problem, then verify that you installed Gradle correctly.
+**Note** if an error occurs, make sure to add Gradle's file path to the `PATH` variable in your system's environment. If that still doesn't fix the problem, then verify that you installed Gradle correctly.
 
 Once Gradle is set up, it's time to get a local copy of the repository to your system.
 
@@ -89,9 +89,10 @@ We have designed this barebones example to be quite easy to set up. All you need
 -   Click "Create a Bot User".
 -   Locate your bot's user token.
     -   **Your user token must not be shared with anyone. If it is posted publicly, change it ASAP.**
--   Create a new file in your directory: `config.ini`
--   Add your token to the first line in the file. Example (inside 'config.ini'):
-        **[TOKEN GOES HERE]**
+-   Create a new file in your directory: `config.properties`
+-   Add your token to the first line in the file. Example (inside `config.properties`):
+        
+            token=[TOKEN GOES HERE]
 
 # Usage
 
