@@ -22,7 +22,9 @@ TODO: General overview
 
 ## Prerequisites
 
-TODO: Add Prerequisites
+-   [Gradle](https://gradle.org/install/)(4.5.1)
+-   [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)(JDK 8)
+-   **Optional** [IntelliJ idea](https://www.jetbrains.com/idea/)
 
 ## Setting Up Your Environment
 
