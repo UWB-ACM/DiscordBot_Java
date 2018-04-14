@@ -94,13 +94,35 @@ We have designed this barebones example to be quite easy to set up. All you need
 
             token=[TOKEN GOES HERE]
 
-# Usage
+# Usage - list of available tasks
 
-TODO: Elaborate more on this section
+All of these commands must be run in the command line (or terminal) in the same directory as the local repository.
 
-Run the following command:
+To build runnable executables of the bot:
+
+    gradle build
+
+To execute the bot:
 
     gradle run
+
+**Note** If running in Windows, you can stop the Bot from running by performing `CTRL + C` and then confirming the decision by pressing `Y`
+
+To clean the repository of the current build:
+
+    gradle clean
+
+To create the necessary IntelliJ files:
+
+    gradle idea
+
+To clean the IntelliJ files:
+
+    gradle cleanIdea
+
+To see all available tasks:
+
+    gradle tasks
 
 # Contributing
 
