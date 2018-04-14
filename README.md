@@ -13,6 +13,7 @@ For a python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSB
         -   [Getting a local copy of the repository](#getting-a-local-copy-of-the-repository)
     -   [Building the environment](#building-the-environment)
     -   [Setting Up Your Bot](#setting-up-your-bot)
+        -   [Register Your Discord Bot](#register-your-discord-bot)   
 -   [Usage](#usage)
 -   [Contributing](#contributing)
 
@@ -78,15 +79,18 @@ Type in the following command:
 
 ## Setting Up Your Bot
 
--   Register your own Discord bot for testing with.
-    -   Navigate to the Discord API docs and [login](https://discordapp.com/developers/applications/me).
-    -   Click on the "New App" button.
-    -   Name your app. Click "Create App".
-    -   Click "Create a Bot User".
-    -   Locate your bot's user token.
-        -   **Your user token must not be shared with anyone. If it is posted publicly, change it ASAP.**
+We have designed this barebones example to be quite easy to set up. All you need to do is find out your bot's user token. In order to do that, we must register our bot on discord.
+
+### Register Your Discord Bot
+
+-   Navigate to the Discord API docs and [login](https://discordapp.com/developers/applications/me).
+-   Click on the "New App" button.
+-   Name your app. Click "Create App".
+-   Click "Create a Bot User".
+-   Locate your bot's user token.
+    -   **Your user token must not be shared with anyone. If it is posted publicly, change it ASAP.**
 -   Create a new file in your directory: `config.ini`
-    -   Add your token to the first line in the file. Example (inside 'config.ini'):
+-   Add your token to the first line in the file. Example (inside 'config.ini'):
         **[TOKEN GOES HERE]**
 
 # Usage
