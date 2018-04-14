@@ -18,7 +18,7 @@ For a python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSB
 
 # Installation
 
-TODO: General overview
+This repository utilizes [Gradle](https://gradle.org/) in order to automate the process of building the environment.
 
 ## Prerequisites
 
