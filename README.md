@@ -1,6 +1,6 @@
 # DiscordBot_Java
 
-A barebones Java-based Discord bot example written using [Discord4J](https://github.com/Discord4J/Discord4J).
+> A barebones Java-based Discord bot example written using [Discord4J](https://github.com/Discord4J/Discord4J).
 
 For a python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSBot_Py).
 
@@ -91,7 +91,7 @@ We have designed this barebones example to be quite easy to set up. All you need
     -   **Your user token must not be shared with anyone. If it is posted publicly, change it ASAP.**
 -   Create a new file in your directory: `config.properties`
 -   Add your token to the first line in the file. Example (inside `config.properties`):
-        
+
             token=[TOKEN GOES HERE]
 
 # Usage
