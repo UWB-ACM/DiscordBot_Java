@@ -94,7 +94,7 @@ We have designed this barebones example to be quite easy to set up. All you need
 
             token=[TOKEN GOES HERE]
 
-# Usage - list of available tasks
+# Usage
 
 All of these commands must be run in the command line (or terminal) in the same directory as the local repository.
 
