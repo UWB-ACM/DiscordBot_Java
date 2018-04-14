@@ -126,4 +126,4 @@ To see all available tasks:
 
 # Contributing
 
-Please see CONTRIBUTING.md for more information (TODO)
+Please see CONTRIBUTING.md for more information **TODO**
