@@ -10,10 +10,7 @@ For a full example written in C#, See also [CSSBot](https://github.com/Chris-Joh
 
 -   [Installation](#installation)
     -   [Prerequisites](#prerequisites)
-    -   [Setting Up Your Environment](#setting-up-your-environment)
-        -   [Setting up Gradle](#setting-up-gradle)
-        -   [Getting a local copy of the repository](#getting-a-local-copy-of-the-repository)
-    -   [Building the environment](#building-the-environment)
+    -   [Setup](#setup)
     -   [Setting Up Your Bot](#setting-up-your-bot)
         -   [Register Your Discord Bot](#register-your-discord-bot)   
 -   [Usage](#usage)
@@ -29,55 +26,19 @@ This repository utilizes [Gradle](https://gradle.org/) in order to automate the 
 -   [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)(8)
 -   **Optional** [IntelliJ idea](https://www.jetbrains.com/idea/)
 
-## Setting Up Your Environment
+## Setup
 
-### Setting up Gradle
+**Note** For a detailed description of how to set up your environment with Gradle (for beginners), please see [Setting Up Your Environment](https://github.com/UWB-ACM/DiscordBot_Java/wiki/Setting-Up-Your-Environment).
 
-Gradle is a quite simple tool to use, after it is set up properly. In order to check to see if it is properly set up, type into the command line:
-
-    gradle
-
-The result should be along the lines of:
-
-    > Task :help
-
-    Welcome to Gradle 4.5.1.
-
-    To run a build, run gradle <task> ...
-
-    To see a list of available tasks, run gradle tasks
-
-    To see a list of command-line options, run gradle --help
-
-    To see more detail about a task, run gradle help --task <task>
-
-**Note** if an error occurs, make sure to add Gradle's file path to the `PATH` variable in your system's environment. If that still doesn't fix the problem, then verify that you installed Gradle correctly.
-
-Once Gradle is set up, it's time to get a local copy of the repository to your system.
-
-### Getting a local copy of the repository
-
-[Fork](https://help.github.com/articles/fork-a-repo/) this repository.
-
-Open the command line (or terminal in Linux) and find a safe place to put your local copy of the repository.
-
-Clone the forked repository:
-
-    git clone https://github.com/[YOUR_USERNAME_HERE]/DiscordBot_Java
-
-### Building the environment
-
-Open the command line (or terminal in Linux) and navigate to the repository's directory.
-
-Type in the following command:
+After cloning and forking the repository, run the following command within the local directory:
 
     gradle build
 
-**Optional** If you are using IntelliJ, run the following command:
+To build the IntelliJ idea files, run the following command:
 
     gradle idea
 
-**Note** You might need to import the project as a Gradle project when you open IntelliJ.
+**Note** For more tasks, see also [Usage](#usage)
 
 ## Setting Up Your Bot
 
