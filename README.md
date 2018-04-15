@@ -14,7 +14,6 @@ For a full example written in C#, See also [CSSBot](https://github.com/Chris-Joh
     -   [Setting Up Your Bot](#setting-up-your-bot)
         -   [Register Your Discord Bot](#register-your-discord-bot)   
 -   [Usage](#usage)
--   [Contributing](#contributing)
 
 # Installation
 
@@ -86,7 +85,3 @@ To clean the IntelliJ files:
 To see all available tasks:
 
     gradle tasks
-
-# Contributing
-
-Please see CONTRIBUTING.md for more information **TODO**
