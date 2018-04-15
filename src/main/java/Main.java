@@ -43,8 +43,7 @@ public class Main {
 
         // Only login after all events are registered otherwise some may be missed.
         cli.login();
-
-
+        
         // wait until the client is ready
         // the client has to be connected to all servers before it should do status updates
         while(!cli.isReady()) { }
@@ -52,7 +51,6 @@ public class Main {
         // Set the status of the bot
         // this is a good way to let users know what the help command is
         cli.changePresence(StatusType.ONLINE, ActivityType.PLAYING, "__test");
-
     }
 
 }
