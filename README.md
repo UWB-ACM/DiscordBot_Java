@@ -2,7 +2,9 @@
 
 > A barebones Java-based Discord bot example written using [Discord4J](https://github.com/Discord4J/Discord4J).
 
-For a python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSBot_Py).
+For a barbones python-based example, See also [CSSBot_Py](https://github.com/UWB-ACM/CSSBot_Py).
+
+For a full example written in C#, See also [CSSBot](https://github.com/Chris-Johnston/CSSBot).
 
 # Table of Contents
 
